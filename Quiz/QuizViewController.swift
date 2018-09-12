@@ -33,7 +33,7 @@ class QuizViewController: UIViewController {
         
         //tmpArrayに問題文、三つの選択肢、答えの番号が入った配列を追加していく
         
-        tmpArray.append(["悲しい","おはよう","お休み","こんにちは",1])
+        tmpArray.append(["喜びの舞","おはよう","お休み","こんにちは",1])
         tmpArray.append(["嬉しい","おはよう","お休み","こんにちは",1])
         tmpArray.append(["喜ぶ","おはよう","お休み","こんにちは",1])
         tmpArray.append(["感動する","おはよう","お休み","こんにちは",1])
