@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE77AB622144D91200A4F960 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE77AB612144D91200A4F960 /* resultViewController.swift */; };
 		EE854C232138E61B00267430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854C222138E61B00267430 /* AppDelegate.swift */; };
 		EE854C252138E61B00267430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854C242138E61B00267430 /* ViewController.swift */; };
 		EE854C282138E61B00267430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE854C262138E61B00267430 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		EE854C2D2138E61D00267430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE854C2B2138E61D00267430 /* LaunchScreen.storyboard */; };
 		EE854C382138E61D00267430 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854C372138E61D00267430 /* QuizTests.swift */; };
 		EE854C432138E61D00267430 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854C422138E61D00267430 /* QuizUITests.swift */; };
+		EE854C512138E66400267430 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE854C502138E66400267430 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE77AB612144D91200A4F960 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 		EE854C1F2138E61B00267430 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE854C222138E61B00267430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE854C242138E61B00267430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		EE854C3E2138E61D00267430 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE854C422138E61D00267430 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		EE854C442138E61D00267430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE854C502138E66400267430 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				EE854C292138E61D00267430 /* Assets.xcassets */,
 				EE854C2B2138E61D00267430 /* LaunchScreen.storyboard */,
 				EE854C2E2138E61D00267430 /* Info.plist */,
+				EE854C502138E66400267430 /* QuizViewController.swift */,
+				EE77AB612144D91200A4F960 /* resultViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE854C512138E66400267430 /* QuizViewController.swift in Sources */,
 				EE854C252138E61B00267430 /* ViewController.swift in Sources */,
 				EE854C232138E61B00267430 /* AppDelegate.swift in Sources */,
+				EE77AB622144D91200A4F960 /* resultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
